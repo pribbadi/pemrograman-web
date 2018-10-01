@@ -1,5 +1,5 @@
 <?php
-$a = array(1,0,9,5,3,3,4,2,3,2,0,6);
+$a = array(1,0,9,5,3,3,4,2,3,2,0,6); //NIM
 echo "Data sebelum diurutkan : ";
 foreach ($a as $value) {
     echo $value;
