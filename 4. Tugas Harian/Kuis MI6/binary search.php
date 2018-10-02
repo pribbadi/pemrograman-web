@@ -1,7 +1,7 @@
 <?php 
 //nim 109533423206 ==> 423206
 //data yang masuk array = 6 digit terakhir
-$a = array(4,2,3,2,0,6); //6 digit terakhir dari nim
+$a = array(0,2,2,1,4,1); //6 digit terakhir dari nim
 $c=count($a);
 $b = false;
 while ($b === false) {
@@ -20,7 +20,7 @@ foreach ($a as $value) {
     echo $value;
 }
 $list=$a;
-$val = $list[0]; //isi $val adalah 1) jika nim genap = $list[0] dan 2) jika nim ganjil = $list[5]
+$val = $list[5]; //isi $val adalah 1) jika nim genap = $list[0] dan 2) jika nim ganjil = $list[5]
 $low = 0;
 $high = $c - 1;
 while ($low <= $high) {
